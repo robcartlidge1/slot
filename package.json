@@ -1,0 +1,15 @@
+{
+  "name": "technical-test",
+  "version": "1.0.0",
+  "description": "Technical test for RS components",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --detectOpenHandles"
+  },
+  "author": "Rob Cartlidge",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
